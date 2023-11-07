@@ -5,14 +5,14 @@ class Gfh < Formula
   desc "test"
   homepage "https://gfh.ch"
   url "https://github.com/gfh-test/gfh-cli/releases/download/0.0.6/gfh-v0.0.5-c0f2bda-darwin-arm64.tar.gz"
-  sha256 "92baac3cc638b7835ca8d30353fffba7c11480eced876076a7ec7d2da9af35ff"
+  sha256 "940095f06b806224d8749fd1ca9a8044145fb87e3d5d92ef5ca6ee1bdd61f75e"
   version "1.0.0"
   version_scheme 1
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gfh-test/gfh-cli/releases/download/0.0.6/gfh-v0.0.5-c0f2bda-darwin-arm64.tar.gz"
-      sha256 "92baac3cc638b7835ca8d30353fffba7c11480eced876076a7ec7d2da9af35ff"
+      sha256 "940095f06b806224d8749fd1ca9a8044145fb87e3d5d92ef5ca6ee1bdd61f75e"
     end
   end
 
