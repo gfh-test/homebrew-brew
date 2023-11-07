@@ -21,8 +21,6 @@ class Gfh < Formula
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/gfh"
 
-    bash_completion.install libexec/"autocomplete-scripts/brew/bash" => "gfh"
-    zsh_completion.install libexec/"autocomplete-scripts/brew/zsh/gfh"
   end
 
   def caveats; <<~EOS
